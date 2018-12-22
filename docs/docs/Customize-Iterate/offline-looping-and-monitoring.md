@@ -98,7 +98,7 @@ On your OpenAPS rig, the xdrip-js library can read directly from the G5 transmit
     </tr>
     <tr>
       <td>Offline (away from transmitter times) supports backfill?</td>
-      <td>No</td> 
+      <td>Yes</td> 
       <td>No</td>
     </tr>
     <tr>
@@ -123,7 +123,7 @@ On your OpenAPS rig, the xdrip-js library can read directly from the G5 transmit
     </tr>
     <tr>
       <td>Calibrate through Web/Nightscout?</td>
-      <td>Yes (local rig Web UI)</td> 
+      <td>Yes</td> 
       <td>Yes</td>
     </tr>
     <tr>
@@ -133,17 +133,17 @@ On your OpenAPS rig, the xdrip-js library can read directly from the G5 transmit
     </tr>
     <tr>
       <td>Calibrate from command line?</td>
-      <td>No</td> 
+      <td>Yes</td> 
       <td>Yes</td>
     </tr>
     <tr>
       <td>Linear Squared Regression Calibration</td>
-      <td>Yes, for > 7 day extension</td> 
+      <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
       <td>Single Point Linear Calibration</td>
-      <td>Yes, for > 7 day extension</td> 
+      <td>Yes</td>
       <td>Yes</td>
     </tr>
     <tr>
@@ -158,12 +158,12 @@ On your OpenAPS rig, the xdrip-js library can read directly from the G5 transmit
     </tr>
       <tr>
       <td>Start Stop Sensor</td>
-      <td>Yes via UI</td> 
+      <td>Yes via NS/Local UI/cmd line</td> 
       <td>Yes via NS/cmd line</td>
     </tr>
       <tr>
       <td>Reset Expired Transmitter</td>
-      <td>Yes via UI</td> 
+      <td>Yes via Local UI/cmd line</td> 
       <td>Yes via cmd line</td>
     </tr>
       <tr>
@@ -173,7 +173,7 @@ On your OpenAPS rig, the xdrip-js library can read directly from the G5 transmit
     </tr>
       <tr>
       <td>View transmitter battery/resistance levels</td>
-      <td>Yes via NS xdrip-js pill</td> 
+      <td>Yes</td> 
       <td>Yes</td>
     </tr>
 </table>
